@@ -1,0 +1,122 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="./lib/fontawesome/css/all.css" rel="stylesheet">
+  <link href="./css/common.css" rel="stylesheet">
+  <link href="./css/header.css" rel="stylesheet">
+  <link href="./css/customer.css" rel="stylesheet">
+  <script src="./lib/jquery/jquery-3.5.1.min.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <div class="header">
+      <i class="fas fa-cubes header-menu-logo header-button"></i>
+      <span class="header-title header-button">Salespods</span>
+      <div class="header-app-menu">
+        <a href="#" class="header-app-menu-link header-button" title="ホーム"">
+          <i class=" fas fa-home"></i>
+        </a>
+        <a href="#" class="header-app-menu-link header-button" title="顧客管理">
+          <i class="fas fa-user-friends"></i>
+        </a>
+        <a href="#" class="header-app-menu-link header-button" title="案件管理">
+          <i class="fas fa-folder"></i>
+        </a>
+        <a href="#" class="header-app-menu-link header-button" title="売上集計">
+          <i class="fas fa-chart-pie"></i>
+        </a>
+      </div>
+      <div class="header-right">
+        <div class="header-search">
+          <div class="header-search-inner">
+            <i class="fas fa-search header-search-icon"></i>
+            <input type="text" placeholder="検索" class="header-search-text">
+          </div>
+        </div>
+        <div class="header-user header-button">
+          <i class="fas fa-user header-user-icon"></i>
+          <span class="header-user-name">Yuto Mochizuki</span>
+          <i class="fas fa-caret-down header-user-pulldown-icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="content content-customer flex-box">
+      <div class="left-content">
+        <div class="view-list">
+          <div class="view-list-title">マイリスト</div>
+          <div class="view-list-item">
+            <i class="fas fa-star"></i>
+            <span>お気に入り</span>
+          </div>
+          <div class="view-list-item view-list-item-selected">
+            <i class="fas fa-box-open"></i>
+            <span>担当一覧</span>
+          </div>
+          <div class="view-list-item">
+            <i class="fas fa-box-open"></i>
+            <span>部署内</span>
+          </div>
+          <div class="view-list-title">フォルダ</div>
+          <div class="view-list-item">
+            <i class="fas fa-box-open"></i>
+            <span>大規模</span>
+          </div>
+          <div class="view-list-item">
+            <i class="fas fa-box-open"></i>
+            <span>最重要</span>
+          </div>
+          <div class="view-list-item">
+            <i class="fas fa-box-open"></i>
+            <span>第一営業部</span>
+          </div>
+          <div class="view-list-item">
+            <i class="fas fa-box-open"></i>
+            <span>第二営業部</span>
+          </div>
+        </div>
+        <div class="left-content-control flex-box">
+          <div class="left-content-control-item">
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="left-content-control-item">
+            <i class="fas fa-folder-plus"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-content">
+        <div class="customer-list-control">
+          <div class="customer-list-control-item">
+            <i class="fas fa-arrows-alt-v"></i>
+            <span>並び順</span>
+          </div>
+        </div>
+        <div class="customer-list">
+          <div class="customer-list-item">
+            <div class="customer-name">ポッド株式会社</div>
+            <div class="customer-asignee">担当者： 望月由登, 田中太郎</div>
+            <div class="customer-rank">エリア： 東京都中央一</div>
+          </div>
+          <div class="customer-list-item">
+            <div class="customer-name"><i class="fas fa-star"></i>ポッド株式会社</div>
+            <div class="customer-asignee">担当者： 望月由登, 田中太郎</div>
+            <div class="customer-rank">エリア： 東京都中央一</div>
+          </div>
+          <div class="customer-list-item">
+            <div class="customer-name">ポッド株式会社</div>
+            <div class="customer-asignee">担当者： 望月由登, 田中太郎</div>
+            <div class="customer-rank">エリア： 東京都中央一</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-content"></div>
+    </div>
+  </div>
+</body>
+
+</html>

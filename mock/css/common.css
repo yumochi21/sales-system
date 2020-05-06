@@ -8,3 +8,17 @@ html, body {
   font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
   outline: none;
 }
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.content {
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  width: 100%;
+  height: calc(100% - 48px);
+}
